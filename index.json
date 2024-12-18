@@ -1,104 +1,104 @@
 [
 {
-	"uri": "//localhost:1313/",
+	"uri": "//localhost:62488/",
 	"title": "Deploy Serverless applications with AWS Lambda",
 	"tags": [],
 	"description": "",
 	"content": "Deploy Serverless applications with AWS Lambda Overall In this lab, you\u0026rsquo;ll learn the basics and practice of Amazon System Manager - Session Manager . Perform creating public and private instance connections.\nContent Introduction Preparation Connect Lambda To Aip Gateway Combine Lambda With DynamoDB Delete resource safter Workshop "
 },
 {
-	"uri": "//localhost:1313/4-combinelambdawithdynamodb/4.1-createdynamodb/",
+	"uri": "//localhost:62488/4-combinelambdawithdynamodb/4.1-createdynamodb/",
 	"title": "create DynamoDB",
 	"tags": [],
 	"description": "",
 	"content": "create DynamoDB go to giao diện DynamoDB Click Create a tabel. sau khi vào tables. In section table name điền User In section partition Key điền UserID(string) In section sort key - optional điền (255) click Create a table results displayed "
 },
 {
-	"uri": "//localhost:1313/2-prerequiste/2.1-deploylambdafunction/2.1.1-createlamba/",
+	"uri": "//localhost:62488/2-prerequiste/2.1-deploylambdafunction/2.1.1-createlamba/",
 	"title": "Create LAMBA",
 	"tags": [],
 	"description": "",
 	"content": "Create lamba Lab lamba Go to lamba service management console Click create a function. At the Create Lambda page.\nIn the create from scratch field, enter Lab Lambda.\nIn the Function name field, enter: helloWorldFunction. In the Execution field, enter: Node.js 22.x.\nclick Create a function.\n"
 },
 {
-	"uri": "//localhost:1313/3-connectlambdatoapigateway/3.1-createrestapi/",
+	"uri": "//localhost:62488/3-connectlambdatoapigateway/3.1-createrestapi/",
 	"title": "Create Rest API",
 	"tags": [],
 	"description": "",
 	"content": " go to giao diện quản trị của dịch vụ Apigetway. Click chọn Creation. sau khi ấn Creation.. Click chọn Add an intergation. In sectionIntergationclick lambda. In section API name namedhelloWoeldFunction click Check and Create In page Create an API chọn Create The displayed result is. "
 },
 {
-	"uri": "//localhost:1313/2-prerequiste/2.1-deploylambdafunction/",
+	"uri": "//localhost:62488/2-prerequiste/2.1-deploylambdafunction/",
 	"title": "Deploy Lambda Function",
 	"tags": [],
 	"description": "",
 	"content": "In this step, we will need to create a lamba. Then create a code snippet using nodes.js and run it to test them.\nThe architecture overview after you complete this step will be as follows:\nTo learn how to create lambda you can refer to the lab:\nContent Create Lambda Add Lambada code "
 },
 {
-	"uri": "//localhost:1313/1-introduce/",
+	"uri": "//localhost:62488/1-introduce/",
 	"title": "Introduction",
 	"tags": [],
 	"description": "",
 	"content": " Serverless Architecture:\nServerless is a cloud computing model where:\nNo server management required: You don\u0026rsquo;t need to install, operate, or maintain physical or virtual servers. Cloud service providers automatically handle that.\nPay-as-you-go pricing: You only pay for the execution time of functions or the resources you actually use, with no charges for idle time.\nAutomatic scaling: Resources are adjusted automatically to handle varying traffic loads without manual intervention.\nIntroduction to AWS Lambda:\nAWS Lambda is a Serverless service provided by Amazon Web Services (AWS), enabling you to run code without managing servers.\nKey Features:\nEvent-driven execution: Your code is executed automatically when triggered by events such as an HTTP request from API Gateway, data changes in DynamoDB, or file uploads to S3.\nSupport for multiple runtimes: AWS Lambda supports popular programming languages such as:\nNode.js Python Go Java Ruby And allows custom runtimes with containers. Advantages of AWS Lambda:\nReduced operational costs. Flexibility and rapid deployment. Seamless integration with other AWS services. Related Serverless Services in AWS:\nAmazon API Gateway:\nFunctionality: Build and deploy REST or WebSocket APIs to easily connect front-end and back-end systems.\nStrengths:\nTraffic management. Access control. Support for multiple protocols (REST, WebSocket). Amazon DynamoDB:\nFunctionality: A high-performance NoSQL database optimized for large-scale applications.\nStrengths:\nAutomatic backups and data recovery. Fast query performance. "
 },
 {
-	"uri": "//localhost:1313/2-prerequiste/2.1-deploylambdafunction/2.1.2-addlambdacode/",
+	"uri": "//localhost:62488/2-prerequiste/2.1-deploylambdafunction/2.1.2-addlambdacode/",
 	"title": "add lambda code ",
 	"tags": [],
 	"description": "",
 	"content": "add lambda code At Code code. file index.mis code nodes.js22x. clickDeploy. At Functions page. click Create test event After pressing create test event, the create new test event page will appear. At section Event Name fill: TestEvent. and then the result line will appear statusCode:200. "
 },
 {
-	"uri": "//localhost:1313/2-prerequiste/",
+	"uri": "//localhost:62488/2-prerequiste/",
 	"title": "Preparation ",
 	"tags": [],
 	"description": "",
 	"content": "\rYou need to create a lambda to perform this exercise.\nTo learn how to create lambda, you can refer to the lab article:\nIntroducing Amazon lambda Content Prepare Lambda "
 },
 {
-	"uri": "//localhost:1313/4-combinelambdawithdynamodb/4.2-updatecodelamba/",
+	"uri": "//localhost:62488/4-combinelambdawithdynamodb/4.2-updatecodelamba/",
 	"title": "update lambda",
 	"tags": [],
 	"description": "",
 	"content": "In this step, we will regenerate the previously created lambda and update the code for the lambda to save data to DynamoDB.\nupdate code lamba update code lambda "
 },
 {
-	"uri": "//localhost:1313/4-combinelambdawithdynamodb/4.3--attachiampermissions/",
+	"uri": "//localhost:62488/4-combinelambdawithdynamodb/4.3--attachiampermissions/",
 	"title": "Attach IAM permissions",
 	"tags": [],
 	"description": "",
 	"content": " go to IAM interface Click roles. Click Create a role. In page roles. IN section service or use case chọn lambda click Following At section Name,verify and create. At section role Name , điền lambdaDynamoDBRole. click Create roles. as a result "
 },
 {
-	"uri": "//localhost:1313/3-connectlambdatoapigateway/",
+	"uri": "//localhost:62488/3-connectlambdatoapigateway/",
 	"title": "connect lambda to APIgetway",
 	"tags": [],
 	"description": "",
 	"content": "In this step, we will make connections to API servers with Lambda, the Lambda we just created earlier.\nContent 3.1. CreateRESTAPI\n"
 },
 {
-	"uri": "//localhost:1313/4-combinelambdawithdynamodb/",
+	"uri": "//localhost:62488/4-combinelambdawithdynamodb/",
 	"title": "Combine Lambda with DynamoDB",
 	"tags": [],
 	"description": "",
 	"content": "DynamoDB provides a stream of data changes (adds, edits, deletions) on DynamoDB tables.\nIn this section we will create DynamoDB and perform decentralization and update the lambda code to see its changes.\nContent: Update IAM Role update lambda Create roles "
 },
 {
-	"uri": "//localhost:1313/5-deleteresourcesafterworkshop/",
+	"uri": "//localhost:62488/5-deleteresourcesafterworkshop/",
 	"title": "Clean up resources",
 	"tags": [],
 	"description": "",
 	"content": "Chúng tôi sẽ thực hiện các bước sau để xóa tài nguyên mà chúng tôi đã tạo trong bài tập này.\nDelete Lambda go to service administration interface lambda In section Functions select the check mark at hellowordFunctions và Lambda click Actions after selecting Actions text will appear Supprimer after selecting Supprimer in section pour confimer la suppression, saisissez Supprimer dans le champ enter textSupprimer and click Supprimer. Delete API GateWay go to Bservice administration interface API GateWay In section API select the check mark at testapi\nClick Supprimer after selecting Supprimer in section pour confimer la suppression, saisissez Supprimer dans le champ enter text confirmer and click Supprimer. Xóa Roles go to service administration interface IAM In section Roles select the check mark at LambdaDynamoDBRole Click Supprimer after selecting Supprimer in sectio pour confimer la suppression, saisissez Supprimer dans le champ enter text LambdaDynamoDBRole and click Supprimer. "
 },
 {
-	"uri": "//localhost:1313/categories/",
+	"uri": "//localhost:62488/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "//localhost:1313/tags/",
+	"uri": "//localhost:62488/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",

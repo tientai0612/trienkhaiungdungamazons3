@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tạo DynamoDB on AWS System Manager</title>
-    <link>//localhost:1313/vi/4-combinelambdawithdynamodb/4.1-createdynamodb/</link>
+    <link>//localhost:62488/vi/4-combinelambdawithdynamodb/4.1-createdynamodb/</link>
     <description>Recent content in Tạo DynamoDB on AWS System Manager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vi</language>
-    <atom:link href="//localhost:1313/vi/4-combinelambdawithdynamodb/4.1-createdynamodb/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:62488/vi/4-combinelambdawithdynamodb/4.1-createdynamodb/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

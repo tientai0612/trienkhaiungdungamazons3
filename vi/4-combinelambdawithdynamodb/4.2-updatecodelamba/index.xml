@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cập nhật lại lambda on AWS System Manager</title>
-    <link>//localhost:1313/vi/4-combinelambdawithdynamodb/4.2-updatecodelamba/</link>
+    <link>//localhost:62488/vi/4-combinelambdawithdynamodb/4.2-updatecodelamba/</link>
     <description>Recent content in cập nhật lại lambda on AWS System Manager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vi</language>
-    <atom:link href="//localhost:1313/vi/4-combinelambdawithdynamodb/4.2-updatecodelamba/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:62488/vi/4-combinelambdawithdynamodb/4.2-updatecodelamba/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
